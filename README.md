@@ -19,7 +19,7 @@ HD 530 - current GPU, to be replaced after shortage (feelsbadman)
 - [x] Realtek audio - FIXED
 - [x] Pretty UEFI - FIXED
 - [x] FileVault - FIXED
-- [x] USB patch - back 2x USB do not work at this moment
+- [x] USB patch - FIXED
 - [ ] Bluetooth - want to use AirPods
 - [ ] Wi-Fi - non-issue for me, but would be nice for AirDrop.
 - [ ] Sleep - iGPU issue
