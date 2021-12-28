@@ -1,7 +1,7 @@
 # Hackintosh
 EFI folder for my Skylake Hackintosh, currently on macOS Big Sur.
 
-Once booted up, it is *almost* perfectly stable! A few crashes on extended Intelij use. 🥰
+Once booted up, it is *almost* perfectly stable!
 
 
 # Specs:
