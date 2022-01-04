@@ -16,16 +16,16 @@ HD 530 - current GPU, to be replaced after shortage (feelsbadman)
 16GB DDR4
 
 # Todo and Problems
-- [x] Realtek audio - FIXED
-- [x] Pretty UEFI - FIXED
+- [x] Realtek audio - FIXED 
+- [x] Pretty UEFI - FIXED 
 - [x] FileVault - FIXED
 - [x] USB patch - FIXED
-- [ ] Bluetooth - want to use AirPods
-- [ ] Wi-Fi - non-issue for me, but would be nice for AirDrop.
-- [ ] Sleep - iGPU issue
-- [ ] *Proper* dual-monitor support - iGPU issue
+- [x] iMessage, iCloud - Works just fine with serial numbers generated
+- [x] Bluetooth - want to use AirPods, bought this adapter that just works^TM: https://amzn.to/3pTbDMt
+- [ ] Wi-Fi - non-issue for me, but would be nice for AirDrop and tethering
+- [ ] Sleep - iGPU issue, will not wake up from sleep. Use 'lock screen' option instead.
+- [ ] *Proper* dual-monitor support - iGPU issue, have to replug/restart both monitors after booting in a certain order.
 - [ ] DRM - iGPU issue
-- [ ] iMessage, iCloud - not a priority imo
 
 
 However, the major problem is that the iGPU is not properly supported. I've played around with the framebuffer patching quite a bit and single-display works, but for dual-display I boot with both monitors attached, unplug both, then reattach with DVI, followed by DP and it somehow works. Sleep functionality due to the iGPU is also broken permanently. 
